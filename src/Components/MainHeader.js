@@ -4,7 +4,7 @@ import styles from "./MainHeader.module.css";
 import { useState } from "react";
 
 const MainHeader = () => {
-  const [demo, setDemo] = useState([]);
+  const [hurry, setHurry] = useState();
   return (
     <React.Fragment>
       <div className={styles.container}>
